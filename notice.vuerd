@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -176.8000000000003,
-    "scrollLeft": -189.60000000000014,
+    "scrollTop": -201.60000000000002,
+    "scrollLeft": -162.39999999999995,
     "zoomLevel": 0.8,
     "show": {
       "tableComment": true,
@@ -389,9 +389,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 550.5563,
-          "top": 133.2429,
-          "zIndex": 349,
+          "left": 553.5563,
+          "top": 135.2429,
+          "zIndex": 350,
           "widthName": 60,
           "widthComment": 60
         },
@@ -502,8 +502,8 @@
           "columnIds": [
             "4631f298-e26d-47f6-ad6a-b98d0b4ce29a"
           ],
-          "x": 550.5563,
-          "y": 188.2429,
+          "x": 553.5563,
+          "y": 190.2429,
           "direction": "left"
         },
         "constraintName": "fk_writer_to_views",

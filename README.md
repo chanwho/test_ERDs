@@ -1,3 +1,13 @@
+## 2022'10'11
+
+MOViE_REVIEW 과제 & MOVIE_RENT 과제
+
+[movie_review] (https://github.com/chanwho/test_ERDs/blob/master/Movie_review.png)
+
+[movie_rent] (https://github.com/chanwho/test_ERDs/blob/master/MovieRent.png)
+
+
+
 ## 2022'10'12
 
 10월 12일의 과제입니다

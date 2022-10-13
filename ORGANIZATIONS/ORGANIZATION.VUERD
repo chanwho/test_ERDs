@@ -43,13 +43,13 @@
   "table": {
     "tables": [
       {
-        "name": "METERIAL_FOR_A_BYCYCLE",
-        "comment": "",
+        "name": "ORGANIZATIONS",
+        "comment": "조직도",
         "columns": [
           {
             "name": "UNIQUE_ID",
-            "comment": "",
-            "dataType": "VARCHAR(200)",
+            "comment": "대표값",
+            "dataType": "VARCHAR(200)2221DFV",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -64,14 +64,14 @@
               "pfk": false,
               "widthName": 68.87255859375,
               "widthComment": 60,
-              "widthDataType": 89.29296875,
+              "widthDataType": 141.98486328125,
               "widthDefault": 60
             },
-            "id": "5a28cc7c-e424-431d-8002-3486c93aa8b3"
+            "id": "57197812-ee29-44bd-92d2-4c5d1bb8e5eb"
           },
           {
-            "name": "COMPONENT",
-            "comment": "",
+            "name": "DEPARTMENT",
+            "comment": "부서명",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -85,17 +85,17 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 83.072265625,
+              "widthName": 82.970703125,
               "widthComment": 60,
               "widthDataType": 89.29296875,
               "widthDefault": 60
             },
-            "id": "30f6a327-6741-4aff-a902-409ff6852952"
+            "id": "240c820e-2c54-4043-913f-ea3ef206c13f"
           },
           {
-            "name": "UNIQUE_ID",
-            "comment": "",
-            "dataType": "VARCHAR(200)",
+            "name": "UNIQUE_ID_CHILD",
+            "comment": "하위대표값",
+            "dataType": "VARCHAR(200)2221DFV",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -108,24 +108,24 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 68.87255859375,
-              "widthComment": 60,
-              "widthDataType": 89.29296875,
+              "widthName": 111.154296875,
+              "widthComment": 67,
+              "widthDataType": 141.98486328125,
               "widthDefault": 60
             },
-            "id": "8752f16d-c208-4878-a0b7-a668388102f6"
+            "id": "8ee0d9dc-f965-40ab-8634-dc1c05ad91d6"
           }
         ],
         "ui": {
-          "active": false,
-          "left": 73.6,
-          "top": 96.8,
+          "active": true,
+          "left": 50.4,
+          "top": 105.6,
           "zIndex": 1,
-          "widthName": 160.818359375,
+          "widthName": 103.5498046875,
           "widthComment": 60
         },
         "visible": true,
-        "id": "fff40728-93b6-4c42-977e-72bc6477193c"
+        "id": "1831e3ac-f41e-49a8-a24e-39c1e3e2606b"
       }
     ],
     "indexes": []
@@ -140,26 +140,26 @@
         "relationshipType": "OneN",
         "startRelationshipType": "Dash",
         "start": {
-          "tableId": "fff40728-93b6-4c42-977e-72bc6477193c",
+          "tableId": "1831e3ac-f41e-49a8-a24e-39c1e3e2606b",
           "columnIds": [
-            "5a28cc7c-e424-431d-8002-3486c93aa8b3"
+            "57197812-ee29-44bd-92d2-4c5d1bb8e5eb"
           ],
-          "x": 452.965234375,
-          "y": 96.8,
+          "x": 517.53916015625,
+          "y": 105.6,
           "direction": "top"
         },
         "end": {
-          "tableId": "fff40728-93b6-4c42-977e-72bc6477193c",
+          "tableId": "1831e3ac-f41e-49a8-a24e-39c1e3e2606b",
           "columnIds": [
-            "8752f16d-c208-4878-a0b7-a668388102f6"
+            "8ee0d9dc-f965-40ab-8634-dc1c05ad91d6"
           ],
-          "x": 472.965234375,
-          "y": 116.8,
+          "x": 537.53916015625,
+          "y": 125.6,
           "direction": "right"
         },
-        "constraintName": "fk_meterial_for_a_bycycle_to_meterial_for_a_bycycle",
+        "constraintName": "fk_organizations_to_organizations",
         "visible": true,
-        "id": "140d3224-0a5a-4665-8b59-213bc549628d"
+        "id": "87dc38b3-d8d9-4e35-8401-c4e75b99741f"
       }
     ]
   }

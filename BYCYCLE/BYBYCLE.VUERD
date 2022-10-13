@@ -1,0 +1,166 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 0,
+    "scrollLeft": 0,
+    "zoomLevel": 1,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "METERIAL_FOR_A_BYCYCLE",
+        "comment": "",
+        "columns": [
+          {
+            "name": "UNIQUE_ID",
+            "comment": "",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 68.87255859375,
+              "widthComment": 60,
+              "widthDataType": 89.29296875,
+              "widthDefault": 60
+            },
+            "id": "5a28cc7c-e424-431d-8002-3486c93aa8b3"
+          },
+          {
+            "name": "COMPONENT",
+            "comment": "",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 83.072265625,
+              "widthComment": 60,
+              "widthDataType": 89.29296875,
+              "widthDefault": 60
+            },
+            "id": "30f6a327-6741-4aff-a902-409ff6852952"
+          },
+          {
+            "name": "UNIQUE_ID",
+            "comment": "",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 68.87255859375,
+              "widthComment": 60,
+              "widthDataType": 89.29296875,
+              "widthDefault": 60
+            },
+            "id": "8752f16d-c208-4878-a0b7-a668388102f6"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 73.6,
+          "top": 96.8,
+          "zIndex": 80,
+          "widthName": 160.818359375,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "fff40728-93b6-4c42-977e-72bc6477193c"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "fff40728-93b6-4c42-977e-72bc6477193c",
+          "columnIds": [
+            "5a28cc7c-e424-431d-8002-3486c93aa8b3"
+          ],
+          "x": 452.965234375,
+          "y": 96.8,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "fff40728-93b6-4c42-977e-72bc6477193c",
+          "columnIds": [
+            "8752f16d-c208-4878-a0b7-a668388102f6"
+          ],
+          "x": 472.965234375,
+          "y": 116.8,
+          "direction": "right"
+        },
+        "constraintName": "fk_meterial_for_a_bycycle_to_meterial_for_a_bycycle",
+        "visible": true,
+        "id": "140d3224-0a5a-4665-8b59-213bc549628d"
+      }
+    ]
+  }
+}

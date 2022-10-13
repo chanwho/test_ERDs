@@ -18,3 +18,8 @@ MOViE_REVIEW 과제 & MOVIE_RENT 과제
 
 [vuerd파일의 PDF](https://github.com/chanwho/test_ERDs/blob/master/GOOD_INFLUENCE/good_influences_ERD_chanwoo.PNG)
 
+## 2022'10'13
+
+수업시간에 한 실습
+
+[multi_board](https://github.com/chanwho/test_ERDs/blob/master/multi_board/multi_board.png)
